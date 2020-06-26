@@ -8,6 +8,8 @@
   <!--linking bootstrap stylesheet-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--linking font awesome icon library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,8 +19,10 @@
     <hr class="my-4">
     <p class="lead">
       <a class="btn btn-primary btn-lg" id="red" href="reservations.html" role="button">Make Reservations</a>
+      <a class="button" id="homebtn" href="index.html"><i class="fa fa-home"></i></a>
     </p>
   </div>
+  <div class="container">
   <div class="card">
     <div class="card-header">Current Reservations</div>
     <div class="card-body">
@@ -26,9 +30,14 @@
     </div>
     <div class="card">
         <div class="card-header">Waiting List</div>
-            <div class="card-body">
-            <h3 id="waitingNameTitle"> | Waiting Hungry Customer </h3>
-        </div>
+        <ol>
+            <li>
+                <div class="card-body">
+                    <h3 id="waitingNameTitle"> | Waiting Hungry Customer </h3>
+                </div>
+            </li>
+    </ol>
+  </div>
   </div>
 </body>
 
